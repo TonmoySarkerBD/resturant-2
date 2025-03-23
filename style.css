@@ -1,0 +1,113 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    background-color: #91ff9398;
+    padding: 0 5vw; 
+}
+h2{
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    gap: 16px;
+}
+main{
+    margin: 24px 5vw;
+}
+.gallary{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.items img{
+    height: 200px;
+    width: 200px;
+}
+
+.gimg{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    background-color: #91ff9398;
+    padding: 50px 20px;
+}
+
+.FAQ{
+    font-size: 32px;
+}
+
+.con-details{
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-start;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+#av{
+    gap: 10px;
+}
+
+.section-title{
+    padding: 30px 10px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.about-section{
+    color: white;
+    font-weight: bold;
+    margin: 50px 0px;
+    padding: 20px 100px;
+    border-radius: 10px;
+    background: url("./aboutbg.jpg") no-repeat center center/cover;
+}
+
+.galary-imgs{
+    border: none;
+    border-radius: 10px;
+}
+
